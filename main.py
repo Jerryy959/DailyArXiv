@@ -22,7 +22,13 @@ with open("README.md", "r") as f:
     # if last_update_date == current_date:
         # sys.exit("Already updated today!")
 
-keywords = ["Time Series", "Trajectory", "Graph Neural Networks"] # TODO add more keywords
+keywords = ["Trusted Execution Environment", "TEE security", "Enclave security", "OS security", "Memory safety TEE",
+            "Hypervisor security", "Virtualization security", "Hardware-assisted virtualization", "Secure virtual machines",
+            "FPGA security", "FPGA virtualization",
+            "Data Processing Unit", "Tensor Processing Unit", "DPU acceleration", "TPU security", "In-memory computing",
+            "Cache coherence", "Memory consistency", "Memory safety", "Hardware security memory",
+            "RISC-V security", "RISC-V virtualization", "Chipyard SoC", "RISC-V trusted execution",
+            "AI model security", "Large model robustness", "Secure AI acceleration"] # TODO add more keywords
 
 max_result = 100 # maximum query results from arXiv API for each keyword
 issues_result = 15 # maximum papers to be included in the issue
