@@ -64,7 +64,8 @@ for keyword in keywords:
         f_rm.close()
         f_is.close()
         restore_files()
-        sys.exit("Failed to get papers!")
+        continue
+        # sys.exit("Failed to get papers!")
     rm_table = generate_table(papers)
     is_table = generate_table(papers[:issues_result], ignore_keys=["Abstract"])
     f_rm.write(rm_table)
